@@ -351,5 +351,6 @@ ul p {
         flex-direction: column;
         height: auto;
         padding: 20px 0;
+        margin-left: 5px;
     }
 }
