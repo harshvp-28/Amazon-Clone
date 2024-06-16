@@ -199,6 +199,9 @@ span {
     padding: 20px 0 15px;
     margin-top: 15px;
 }
+.box:hover{
+    transform: scale(1.04);
+}
 
 .box-image {
     height: 300px;
