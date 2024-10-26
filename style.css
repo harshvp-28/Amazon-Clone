@@ -301,20 +301,21 @@ ul p {
     padding-top: 5px;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
+    
     .box {
-        width: 30%;
+        width: 28%;
     }
 }
 
 @media (max-width: 992px) {
+    
     .box {
         width: 45%;
     }
-    
+
     .nav-search {
-        max-width: 400px;
+        max-width: 450px;
     }
 }
 
@@ -326,12 +327,26 @@ ul p {
     .navbar {
         flex-wrap: wrap;
         height: auto;
-        padding: 10px 20px;
+        padding: 15px 10px;
+    }
+
+    .nav-logo {
+        margin: auto;
     }
 
     .nav-search {
         width: 100%;
         margin: 10px 0;
+    }
+
+    .nav-address, .nav-signin, .nav-return, .nav-cart {
+        margin: 5px 0;
+    }
+
+    .panel {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
     }
 }
 
@@ -342,18 +357,31 @@ ul p {
 
     .panel {
         flex-direction: column;
-        height: auto;
-        padding: 10px 0;
+        padding: 15px 0;
     }
 
     .hero-msg {
-        width: 90%;
+        width: 95%;
     }
 
     .foot-panel2 {
         flex-direction: column;
         height: auto;
-        padding: 20px 0;
-        margin-left: 5px;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .foot-panel2 ul {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .foot-panel4 {
+        padding-top: 10px;
+    }
+
+    .foot-panel2 ul a, .pages a {
+        display: block;
+        text-align: center;
     }
 }
